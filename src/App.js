@@ -1,8 +1,8 @@
 import React from "react";
-import HelloDiv from "./components/HelloDiv";
+import JSXVariables from "./components/JSXVariables";
 
 function App() {
-  return <HelloDiv />;
+  return <JSXVariables />;
 }
 
 export default App;

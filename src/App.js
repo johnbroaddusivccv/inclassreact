@@ -1,17 +1,8 @@
 import React from "react";
-import Wrapper from "./components/Wrapper";
-import Title from "./components/Title";
-import Card from "./components/Card"
-import friends from "./friends.json"
-function App() {
+import Counter from "./components/Counter";
 
-  console.log(friends)
-  return (
-    <Wrapper>
-      <Title>Friends List</Title>
-      {friends.map((friend, i) => <Card key={i} name={friend.name} occupation={friend.occupation} location={friend.location} src={friend.image} />)}
-    </Wrapper>
-  );
+function App() {
+  return <Counter />;
 }
 
 export default App;
